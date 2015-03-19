@@ -11,7 +11,6 @@ class Web_CatalogSearch_Model_Resource_CatalogSearch_Advanced_Collection extends
          * and Add locale for Zend Zend_Date::isDate($conditionValue['from'])
          *
          */
-
+        return parent::addFieldsToFilter($fields);
     }
-
 }
